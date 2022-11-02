@@ -1,0 +1,27 @@
+.main-header {
+    height: 142px;
+    background-color: #981e32;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+.row.side-left .column.two, .row.side-right .column.one {
+    width: 900px;
+}
+.row.side-left .column.one, .row.side-right .column.two {
+    width: 288px;
+}
+p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+.move-down {
+    padding-top: 20px;
+}
+.main-header sup {
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
